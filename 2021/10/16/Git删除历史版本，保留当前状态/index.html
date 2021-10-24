@@ -20,25 +20,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"xingrui.ml","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="我很懒">
-<meta property="og:type" content="website">
-<meta property="og:title" content="❤️RU-随遇而安">
-<meta property="og:url" content="http://xingrui.ml/categories/Hexo/index.html">
+<meta name="description" content="创建并切换到latest_branch分支 1$ git checkout --orphan latest_branch">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git删除历史版本，保留当前状态">
+<meta property="og:url" content="http://xingrui.ml/2021/10/16/Git%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%8C%E4%BF%9D%E7%95%99%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81/index.html">
 <meta property="og:site_name" content="❤️RU-随遇而安">
-<meta property="og:description" content="我很懒">
+<meta property="og:description" content="创建并切换到latest_branch分支 1$ git checkout --orphan latest_branch">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-16T10:50:57.000Z">
+<meta property="article:modified_time" content="2021-10-24T09:13:41.387Z">
 <meta property="article:author" content="❤️RUI❤️">
+<meta property="article:tag" content="Git Github">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://xingrui.ml/categories/Hexo/">
+<link rel="canonical" href="http://xingrui.ml/2021/10/16/Git%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%8C%E4%BF%9D%E7%95%99%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/Hexo/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://xingrui.ml/2021/10/16/Git%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%8C%E4%BF%9D%E7%95%99%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81/","path":"2021/10/16/Git删除历史版本，保留当前状态/","title":"Git删除历史版本，保留当前状态"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: Hexo | ❤️RU-随遇而安</title>
+<title>Git删除历史版本，保留当前状态 | ❤️RU-随遇而安</title>
   
 
 
@@ -184,70 +187,124 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h2 class="collection-header">Hexo
-          <small>分类</small>
-        </h2>
-      </div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://xingrui.ml/2021/10/16/Git%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%8C%E4%BF%9D%E7%95%99%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="❤️RUI❤️">
+      <meta itemprop="description" content="我很懒">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="❤️RU-随遇而安">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Git删除历史版本，保留当前状态
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-10-16 18:50:57" itemprop="dateCreated datePublished" datetime="2021-10-16T18:50:57+08:00">2021-10-16</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-10-24 17:13:41" itemprop="dateModified" datetime="2021-10-24T17:13:41+08:00">2021-10-24</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <ol>
+<li><p>创建并切换到<code>latest_branch</code>分支</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout --orphan latest_branch</span><br></pre></td></tr></table></figure>
+<span id="more"></span></li>
+<li><p>添加所有文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add -A</span><br></pre></td></tr></table></figure></li>
+<li><p>提交更改</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -am <span class="string">&quot;删除历史版本记录，初始化仓库&quot;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>删除分支</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git branch -D master</span><br></pre></td></tr></table></figure></li>
+<li><p>将当前分支重命名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git branch -m master</span><br></pre></td></tr></table></figure></li>
+<li><p>强制更新存储库</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -f origin master</span><br></pre></td></tr></table></figure></li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-10-15T12:00:00+08:00"
-              content="2021-10-15">
-          10-15
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/10/15/HEXO%E5%85%A5%E9%97%A8%EF%BC%88%E4%BA%8C%EF%BC%89/" itemprop="url">
-            <span itemprop="name">HEXO入门（二）</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          
 
-      
-    </header>
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>❤️RUI❤️
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://xingrui.ml/2021/10/16/Git%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%EF%BC%8C%E4%BF%9D%E7%95%99%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81/" title="Git删除历史版本，保留当前状态">http://xingrui.ml/2021/10/16/Git删除历史版本，保留当前状态/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Git-Github/" rel="tag"># Git Github</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/10/15/HEXO%E5%85%A5%E9%97%A8%EF%BC%88%E4%BA%8C%EF%BC%89/" rel="prev" title="HEXO入门（二）">
+                  <i class="fa fa-chevron-left"></i> HEXO入门（二）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-10-09T20:51:11+08:00"
-              content="2021-10-09">
-          10-09
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/10/09/HEXO%E5%85%A5%E9%97%A8%EF%BC%88%E4%B8%80%EF%BC%89/" itemprop="url">
-            <span itemprop="name">HEXO入门（一）</span>
-          </a>
-      </div>
 
-      
-    </header>
-  </article>
 
-    </div>
-  </div>
-  
-  
-  
+
 
 </div>
   </main>
